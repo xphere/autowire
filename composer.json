@@ -1,0 +1,12 @@
+{
+    "name": "xphere/autowire",
+    "description": "Autowire services into controller actions through type hinting",
+    "type": "symfony-bundle",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Berny Cantos",
+            "email": "be@rny.cc"
+        }
+    ]
+}
