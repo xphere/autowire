@@ -2,6 +2,15 @@
     "name": "xphere/autowire",
     "description": "Autowire services into controller actions through type hinting",
     "type": "symfony-bundle",
+    "autoload": {
+        "psr-4": {
+            "Xphere\\Autowire\\": "src/lib",
+            "Xphere\\Bundle\\AutowireBundle\\": "src/bundle"
+        }
+    },
+    "require": {
+        "symfony/framework-bundle": "~3.1"
+    },
     "license": "MIT",
     "authors": [
         {
